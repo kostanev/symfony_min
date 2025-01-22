@@ -1,0 +1,10 @@
+controllers:
+    type: attribute
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+
+when@dev:
+    web_profiler_profiler:
+        resource: '@WebProfilerBundle/Resources/config/routing/profiler.xml'
+        prefix: /debug
